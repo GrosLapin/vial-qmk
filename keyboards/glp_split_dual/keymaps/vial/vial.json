@@ -1,0 +1,21 @@
+{
+    "manufacturer": "Martin Morterol",
+    "name": "glp_2x3",
+    "maintainer": "GrosLapinPoussif",
+    "productId": "0xEEEE",
+    "vendorId": "0x2019",
+    "matrix": {
+        "rows" : 2,
+        "cols" : 1
+    },
+    "layouts": {
+        "keymap":[
+            [
+                "0,0"
+            ],
+            [
+                "1,0"
+            ]
+        ]
+    }
+}
