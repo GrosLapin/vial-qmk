@@ -5,17 +5,20 @@
     "productId": "0xEEEE",
     "vendorId": "0x2019",
     "matrix": {
-        "rows" : 4,
-        "cols" : 1
+        "rows" : 2,
+        "cols" : 3
     },
     "layouts": {
         "keymap":[
             [
-
-                "g1","d1"
+                "0,0",
+                "0,1",
+                "0,2"
             ],
             [
-                "g2","d2"
+                "1,0",
+                "1,1",
+                "1,2"
             ]
         ]
     }

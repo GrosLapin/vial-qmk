@@ -1,7 +1,7 @@
 {
     "manufacturer": "Martin Morterol",
-    "keyboard_name": "glp_split_dual",
-    "maintainer": "GrosLapin",
+    "keyboard_name": "glp_2x3",
+    "maintainer": "GrosLapinPoussif",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP21"],
-        "rows": ["GP20","GP19"]
+        "cols": ["GP8","GP7","GP6"],
+        "rows": ["GP9","GP10"]
     },
     "processor": "RP2040",
     "url": "",
@@ -27,20 +27,12 @@
         "LAYOUT": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
                 {"matrix": [1, 0], "x": 0, "y": 1},
-                {"matrix": [2, 0], "x": 0, "y": 2},
-                {"matrix": [3, 0], "x": 0, "y": 3}
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1}
             ]
-        }
-    },
-    "split": {
-        "enabled": true,
-        "soft_serial_pin": "GP0",
-        "matrix_pins": {
-            "right": {
-                "cols": ["GP21"],
-                "rows": ["GP20","GP19"]
-            }
         }
     }
 }

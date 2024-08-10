@@ -1,7 +1,0 @@
-QMK_SETTINGS = yes
-TAP_DANCE_ENABLE = yes
-
-
-SPLIT_KEYBOARD = yes
-SERIAL_DRIVER = vendor
-SPLIT_TRANSPORT = custom
